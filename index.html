@@ -1,18 +1,20 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Kekeli Dos Akouete">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Prime Academy Application Submission</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="javascript.js"></script>
+  <meta charset="utf-8">
+  <meta name="author" content="Kekeli Dos Akouete">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kekeli Dos G Akouete HTML Resume Submission</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="javascript.js"></script>
 </head>
 
 <body>
-	<div class= "container">
-    	<h1>KEKELI DOS G AKOUETE</h1>
-	  <div class= "tab">
+  <div class= "container">
+    <h1>KEKELI DOS G AKOUETE</h1>
+
+    <!-- the tabs above the name  -->
+    <div class= "tab">
 	    <button class="tablinks" onclick="openTab(event, 'Main')" id="defaultOpen">Main</button>
 	    <button class="tablinks" onclick="openTab(event, 'Objective')" >Objective</button>
 	    <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
@@ -20,260 +22,282 @@
 	    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
 	    <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
 	  </div>
-        <div id="Contact" class="tabcontent">
-      	  <h2>Contact</h2>
-      	  <div class= "contact"> 
-            	601 8th Ave S <br />
-            	South St Paul, MN 55075 <br/>
-                Email: dosakouete@gmail.com <br />
-                Phone: 410-302-9892 <br />
-                LinkedIn: <a href="http://www.linkedin.com/in/kekelidosakouete" target="_blank"> Visit my LinkedIn page</a>
-           </div>
-    	</div>
-        
-        <div id="Education" class="tabcontent">
-      		<h2>Education</h2>
-            	<h3>Community College of Baltimore County</h3>
-            	<ul>
-            		<li>Associate of Science Degree in Computer Science</li>
-                </ul>
-                <h3>SoloLearn E-Learning</h3>
-                <ul>
-                	<li>Certificate for Java Course Completed, Certificate for C# Course Completed, Certificate for JavaScript Course Completed,
-                	 	Certificate for C++ Course Completed, Certificate for SQL Course Completed .</li>
-      		</ul>
-		<h3><i>Click on the dot below to see the certificates</i></h3>
-                <br/>
-            <div class="slideshow-container" id="certificates">
-              <div class="mySlides fade" >
-                <div class="numbertext">1 / 5</div>
-                <embed src="c++.pdf" width="980px" height="780px"/>
-                <div class="text">C++ Course Completed</div>
-              </div>
-            
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 5</div>
-                <embed src="java.pdf" width="980px" height="780px"/>
-                <div class="text">Java Course Completed</div>
-              </div>
-            
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 5</div>
-                <embed src="javascript.pdf" width="980px" height="780px"/>
-                <div class="text">JavaScript Course Completed</div>
-              </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">4 / 5</div>
-                <embed src="sql.pdf" width="980px" height="780px"/>
-                <div class="text">SQL Course Completed</div>
-              </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">5 / 5</div>
-                <embed src="csharp.pdf" width="980px" height="780px"/>
-                <div class="text">C# Course Completed</div>
-              </div>
-              
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-            
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>
-            </div>
 
-    	</div>
-        
-        <div id="Experience" class="tabcontent">
-      		<h2>Experience</h2>
-             	<div class="title">SOFTWARE DEVELOPER INTERN, HEALYTICS LLC</div>
-                	<h5>06/04/2017 TO 10/13/2017</h5>
-                    <ul class="main-list">
-                        <li>Key Accomplishment: Back-end Web application development with NodeJS/JavaScript implementing Express.JS, Rest APIs, and
-                         the Apache NIFI for data processing and ingestion into No SQL database, the goal of this project was to consume a client 
-                         services API and store JSON formatted data, which then was managed with PostgreSQL database for various use.</li>
-                        <li>Managed my tasks and code repository independently using the Agile framework implemented with Atlassian stack 
-                            tools and GitFlow, while working synchronously with my team members.</li>
-                        <li>Worked with the testing framework such as Mocha and Chai including the implementation of Proxyquire and Sequelize-Mock for a dependency injection.</li>
-                        <li>Performed JUnit testing in Java testing independent APIs such as JoltTransform using JSON to JSON Transformation libraries.</li>
-                	</ul>
-                <div class="title">TECHNICIAN, IMPACT OFFICE LLC</div>
-                	<h5>07/01/2015 TO 06/30/2017</h5>
-                    <ul class="main-list">
-                        <li>Responsible for pre-installation, network configuration, reparation and testing of production machines, high capacity copiers, and 
-                        	printers from a variety of manufacturers including Canon, HP and Samsung.</li>
-                        <li>Purchased and managed parts inventory</li>
-                        <li>Collaborated with the solution architect to configure the necessary hardware and software to achieve a seamless workflow</li>
-                	</ul>
-                <div class="title">SALES REPRESENTATIVE, ROBNET INDUSTRIAL FASTENERS INC</div>
-                	<h5>10-15-2006 TO 02/2015</h5>
-                    <ul class="main-list">
-                        <li>Promoted to the position of Inside Sales Representative, provided customer service, and successfully managed accounts.</li>
-                        <li>Supervised the quality of the products supplied to customers and achieved a 98% customer satisfaction rating.</li>
-                        <li>Submitted requisitions, issued purchase orders, and followed up with the receiving department. Aided the office manager with filing and scanning documents.</li>
-                	</ul>
+    <!-- the contact tab -->
+    <div id="Contact" class="tabcontent">
+  	  <h2>Contact</h2>
+  	  <div class= "contact"> 
+      	601 8th Ave S <br />
+      	South St Paul, MN 55075 <br/>
+        Email: dosakouete@gmail.com <br />
+        Phone: 410-302-9892 <br />
+        LinkedIn: <a href="http://www.linkedin.com/in/kekelidosakouete" target="_blank"> Visit my LinkedIn page</a>
+      </div>
+	  </div>
 
+    <!-- the education tab -->    
+    <div id="Education" class="tabcontent">
+      <h2>Education</h2>
+    	<h3>Community College of Baltimore County</h3>
+    	<ul>
+    		<li>Associate of Science Degree in Computer Science</li>
+      </ul>
+      <h3>SoloLearn E-Learning</h3>
+      <ul>
+        <li>Certificate for Java Course Completed, Certificate for C# Course Completed, Certificate for JavaScript Course Completed,
+        	 	Certificate for C++ Course Completed, Certificate for SQL Course Completed .
+        </li>
+	    </ul>
+		  <h3><i>Click on the dot below to see the certificates</i></h3>
+
+      <!-- The slide show for the pdf certificates -->
+      <br/>
+      <div class="slideshow-container" id="certificates">
+        <div class="mySlides fade" >
+          <div class="numbertext">1 / 5</div>
+          <embed src="c++.pdf" width="980px" height="780px"/>
+          <div class="text">C++ Course Completed</div>
         </div>
-        <div id="Skills" class="tabcontent">
-          <h2>Skills</h2>
-          <ul>
-              <li>1 year working experience with Java</li>
-              <li>Have some experience with Agile, Git and the Atlassian framework tooks</li>
-              <li>Foundamental knowledge in Rest Api, NodeJs/Express.Js, NPM, Maven for dependency management, and Apache NIFI: a data processing platform.</li>
-              <li>5 months experience with JavaScript</li>
-              <li>Less than a year experience with C++</li>
-              <li>Less than a year experience with C#</li>
-              <li>Knowledge with MySQL and PostgreSQL</li>
-              <li>Have besic knowledge in Python</li>
-              <li>Comfortable working on Windows and Linux platforms</li>
-              <li>Self-starter, detail oriented, strong work ethic, problem solver</li>
-              <li>Fluent in French and English (both verbal and written), and two West African native dialects</li>
-              <li>Talented in traditional drawing and sketching, especially human figures and portraits</li>
-         </ul> 
-    	</div>  
-          
-    	<div id="Objective" class="tabcontent" >
-            <h2>Objective</h2>
-            <p>IT professional with experience in back-end software development and customer service. Interested in service oriented desktop, mobile 
-and web applications development, as well as learning more about full Stack development. Independent self-motivated learner, constantly 
-seeking ways to improve while working with new innovative technologies. Want to grow professionally while contributing to the 
-development of high quality software solutions. Fluent in English and French, also a talented artist that loves to code.
-            </p>
             
-            <div id="foto" class="section">
-                <img src="dos.png" alt="My picture" class="img-circle">
-            </div>
-    	</div>
-        
-        <div id="Main" class="tabcontent">
-      		<div id="fullpage" class="content-main">
-                <p>601 8th Ave S &#9; South St Paul, MN 55075 &#9; Email: dosakouete@gmail.com &#9; Phone: 410-302-9892</p>
-                <div id="header">
-                <p>IT professional with experience in back-end software development and customer service. Interested in service oriented desktop, mobile 
-and web applications development, as well as learning more about full Stack development. Independent self-motivated learner, constantly 
-seeking ways to improve while working with new innovative technologies. Want to grow professionally while contributing to the 
-development of high quality software solutions. Fluent in English and French, also a talented artist that loves to code.
-            	</p>
-                </div>
-            <h4>SKILLS &#38; ABILITIES</h4>
-            	<div>
-                    <ul class="main-list" >
-                        <li>Working knowledge of Java, JavaScript, C++, C#, Node.JS, as well as familiarity with Python and SQL</li>
-                        <li>Comfortable working on Windows and Linux platforms</li>
-                        <li>Self-starter, detail oriented, strong work ethic, problem solver</li>
-                        <li>Fluent in French and English (both verbal and written), and two West African native dialects</li>
-                        <li>Talented in traditional drawing and sketching, especially human figures and portraits</li>
-                    </ul>
-                </div>
-            <h4>EDUCATION</h4>
-            	<div class="title">COMMUNITY COLLEGE OF BALTIMORE COUNTY</div>
-            	<ul class="main-list">
-                    <li>Associate of Science Degree in Computer Science</li>
-                </ul>
-                <div class="title">SOLOLEARN E-LEARNING</div>
-                <ul class="main-list">
-                    <li>Certificate for Java Course Completed, Certificate for C# Course Completed, Certificate for JavaScript Course Completed,
-                    	 Certificate for C++ Course Completed, Certificate for SQL Course Completed.
-		    </li>
-                </ul>
-             <h4>EXPERIENCE</h4>
-             	<div class="title">SOFTWARE DEVELOPER INTERN, HEALYTICS LLC</div>
-                	<h5>06/04/2017 TO 10/13/2017</h5>
-                    <ul class="main-list">
-                        <li>Key Accomplishment: Back-end Web application development with NodeJS/JavaScript implementing Express.JS, Rest APIs, and
-                         the Apache NIFI for data processing and ingestion into No SQL database, the goal of this project was to consume a client 
-                         services API and store JSON formatted data, which then was managed with PostgreSQL database for various use.</li>
-                        <li>Managed my tasks and code repository independently using the Agile framework implemented with Atlassian stack 
-                            tools and GitFlow, while working synchronously with my team members.</li>
-                        <li>Worked with the testing framework such as Mocha and Chai including the implementation of Proxyquire and Sequelize-Mock for dependency injection.</li>
-                        <li>Performed JUnit testing in Java testing independent APIs such as JoltTransform using JSON to JSON Transformation libraries.</li>
-                	</ul>
-                <div class="title">TECHNICIAN, IMPACT OFFICE LLC</div>
-                	<h5>07/01/2015 TO 06/30/2017</h5>
-                    <ul class="main-list">
-                        <li>Responsible for pre-installation, network configuration, reparation and testing of production machines, high capacity copiers, and 
-                        	printers from a variety of manufacturers including Canon, HP and Samsung.</li>
-                        <li>Purchased and managed parts inventory</li>
-                        <li>Collaborated with the solution architect to configure the necessary hardware and software to achieve a seamless workflow</li>
-                	</ul>
-                <div class="title">SALES REPRESENTATIVE, ROBNET INDUSTRIAL FASTENERS INC</div>
-                	<h5>10-15-2006 TO 02/2015</h5>
-                    <ul class="main-list">
-                        <li>Promoted to the position of Inside Sales Representative, provided customer service, and successfully managed accounts.</li>
-                        <li>Supervised the quality of the products supplied to customers and achieved a 98% customer satisfaction rating.</li>
-                        <li>Submitted requisitions, issued purchase orders, and followed up with the receiving department. Aided the office manager with filing and scanning documents.</li>
-                	</ul>
-        	</div>
-    	</div>
-        
-        <div id="home" class="content-main">
-                <p>601 8th Ave S &#9; South St Paul, MN 55075 &#9; Email: dosakouete@gmail.com &#9; Phone: 410-302-9892</p>
-                <div class="header">
-                <p>IT professional with experience in back-end software development and customer service. Interested in service oriented desktop, mobile 
-and web applications development, as well as learning more about full Stack development. Independent self-motivated learner, constantly 
-seeking ways to improve while working with new innovative technologies. Want to grow professionally while contributing to the 
-development of high quality software solutions. Fluent in English and French, also a talented artist that loves to code.
-            	</p>
-                </div>
-            <h4>SKILLS &#38; ABILITIES</h4>
-            	<div>
-                    <ul class="main-list" >
-                        <li>Working knowledge of Java, JavaScript, C++, C#, Node.JS, as well as familiarity with Python and SQL</li>
-                        <li>Comfortable working on Windows and Linux platforms</li>
-                        <li>Self-starter, detail oriented, strong work ethic, problem solver</li>
-                        <li>Fluent in French and English (both verbal and written), and two West African native dialects</li>
-                        <li>Talented in traditional drawing and sketching, especially human figures and portraits</li>
-                    </ul>
-                </div>
-            <h4>EDUCATION</h4>
-            	<div class="title">COMMUNITY COLLEGE OF BALTIMORE COUNTY</div>
-            	<ul class="main-list">
-                    <li>Associate of Science Degree in Computer Science</li>
-                </ul>
-                <div class="title">SOLOLEARN E-LEARNING</div>
-                <ul class="main-list">
-                    <li>Certificate for Java Course Completed, Certificate for C# Course Completed, Certificate for JavaScript Course Completed,
-                    	 Certificate for C++ Course Completed, Certificate for SQL Course Completed.</li>
-                </ul>
-             <h4>EXPERIENCE</h4>
-             	<div class="title">SOFTWARE DEVELOPER INTERN, HEALYTICS LLC</div>
-                	<h5>06/04/2017 TO 10/13/2017</h5>
-                    <ul class="main-list">
-                        <li>Key Accomplishment: Back-end Web application development with NodeJS/JavaScript implementing Express.JS, Rest APIs, and
-                         the Apache NIFI for data processing and ingestion into No SQL database, the goal of this project was to consume a client 
-                         services API and store JSON formatted data, which then was managed with PostgreSQL database for various use.</li>
-                        <li>Managed my tasks and code repository independently using the Agile framework implemented with Atlassian stack 
-                            tools and GitFlow, while working synchronously with my team members.</li>
-                        <li>Worked with the testing framework such as Mocha and Chai including the implementation of Proxyquire and Sequelize-Mock for dependency injection.</li>
-                        <li>Performed JUnit testing in Java testing independent APIs such as JoltTransform using JSON to JSON Transformation libraries.</li>
-                	</ul>
-                <div class="title">TECHNICIAN, IMPACT OFFICE LLC</div>
-                	<h5>07/01/2015 TO 06/30/2017</h5>
-                    <ul class="main-list">
-                        <li>Responsible for pre-installation, network configuration, reparation and testing of production machines, high capacity copiers, and 
-                        	printers from a variety of manufacturers including Canon, HP and Samsung.</li>
-                        <li>Purchased and managed parts inventory</li>
-                        <li>Collaborated with the solution architect to configure the necessary hardware and software to achieve a seamless workflow</li>
-                	</ul>
-                <div class="title">SALES REPRESENTATIVE, ROBNET INDUSTRIAL FASTENERS INC</div>
-                	<h5>10-15-2006 TO 02/2015</h5>
-                    <ul class="main-list">
-                        <li>Promoted to the position of Inside Sales Representative, provided customer service, and successfully managed accounts.</li>
-                        <li>Supervised the quality of the products supplied to customers and achieved a 98% customer satisfaction rating.</li>
-                        <li>Submitted requisitions, issued purchase orders, and followed up with the receiving department. Aided the office manager with filing and scanning documents.</li>
-                	</ul>
-        	</div>
-        
-        <div id="container footer-content" class= "copyright">
-            <p>&copy; Copyright 2018 - Kekeli Dos Akouete</p>
- 		</div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <embed src="java.pdf" width="980px" height="780px"/>
+          <div class="text">Java Course Completed</div>
+        </div>
+            
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <embed src="javascript.pdf" width="980px" height="780px"/>
+          <div class="text">JavaScript Course Completed</div>
+        </div>
+              
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <embed src="sql.pdf" width="980px" height="780px"/>
+          <div class="text">SQL Course Completed</div>
+        </div>
+              
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <embed src="csharp.pdf" width="980px" height="780px"/>
+          <div class="text">C# Course Completed</div>
+        </div>
+              
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+            
+            
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
     </div>
+
+    <!-- The experience tab -->    
+    <div id="Experience" class="tabcontent">
+      <h2>Experience</h2>
+      <!-- The most recent experience -->
+      <div class="title">SOFTWARE DEVELOPER INTERN, HEALYTICS LLC</div>
+      <h5>06/04/2017 TO 10/13/2017</h5>
+      <ul class="main-list">
+        <li>Key Accomplishment: Back-end Web application development with NodeJS/JavaScript implementing Express.JS, Rest APIs, and
+         the Apache NIFI for data processing and ingestion into No SQL database, the goal of this project was to consume a client 
+         services API and store JSON formatted data, which then was managed with PostgreSQL database for various use.
+        </li>
+        <li>Managed my tasks and code repository independently using the Agile framework implemented with Atlassian stack 
+            tools and GitFlow, while working synchronously with my team members.
+        </li>
+        <li>Worked with the testing framework such as Mocha and Chai including the implementation of Proxyquire and Sequelize-Mock for a dependency injection.
+        </li>
+        <li>Performed JUnit testing in Java testing independent APIs such as JoltTransform using JSON to JSON Transformation libraries.
+        </li>
+      </ul>
+      <!-- The second to the latest experience  -->
+      <div class="title">TECHNICIAN, IMPACT OFFICE LLC</div>
+      <h5>07/01/2015 TO 06/30/2017</h5>
+      <ul class="main-list">
+        <li>Responsible for pre-installation, network configuration, reparation and testing of production machines, high capacity copiers, and printers from a variety of 
+        manufacturers including Canon, HP and Samsung.
+        </li>
+        <li>Purchased and managed parts inventory</li>
+        <li>Collaborated with the solution architect to configure the necessary hardware and software to achieve a seamless workflow</li>
+      </ul>
+      <!-- The oldest experience -->
+      <div class="title">SALES REPRESENTATIVE, ROBNET INDUSTRIAL FASTENERS INC</div>
+      <h5>10-15-2006 TO 02/2015</h5>
+      <ul class="main-list">
+        <li>Promoted to the position of Inside Sales Representative, provided customer service, and successfully managed accounts.</li>
+        <li>Supervised the quality of the products supplied to customers and achieved a 98% customer satisfaction rating.</li>
+        <li>Submitted requisitions, issued purchase orders, and followed up with the receiving department. Aided the office manager with filing and scanning documents.</li>
+  	  </ul>
+    </div>
+
+    <!-- The skill tab -->
+    <div id="Skills" class="tabcontent">
+      <h2>Skills</h2>
+      <ul>
+        <li>1 year working experience with Java</li>
+        <li>Have some experience with Agile, Git and the Atlassian framework tooks</li>
+        <li>Foundamental knowledge in Rest Api, NodeJs/Express.Js, NPM, Maven for dependency management, and Apache NIFI: a data processing platform.</li>
+        <li>5 months experience with JavaScript</li>
+        <li>Less than a year experience with C++</li>
+        <li>Less than a year experience with C#</li>
+        <li>Knowledge with MySQL and PostgreSQL</li>
+        <li>Have besic knowledge in Python</li>
+        <li>Comfortable working on Windows and Linux platforms</li>
+        <li>Self-starter, detail oriented, strong work ethic, problem solver</li>
+        <li>Fluent in French and English (both verbal and written), and two West African native dialects</li>
+        <li>Talented in traditional drawing and sketching, especially human figures and portraits</li>
+      </ul> 
+    </div>
+
+    <!-- tThe objective tab -->      
+    <div id="Objective" class="tabcontent" >
+      <h2>Objective</h2>
+      <p>IT professional with experience in back-end software development and customer service. Interested in service oriented desktop, mobile 
+and web applications development, as well as learning more about full Stack development. Independent self-motivated learner, constantly 
+seeking ways to improve while working with new innovative technologies. Want to grow professionally while contributing to the 
+development of high quality software solutions. Fluent in English and French, also a talented artist that loves to code.
+      </p>
+            
+      <div id="foto" class="section">
+        <img src="dos.png" alt="My picture" class="img-circle">
+      </div>
+
+    </div>
+        
+    <!-- The main tab -->
+    <div id="Main" class="tabcontent">
+      <div id="fullpage" class="content-main">
+        <p>601 8th Ave S &#9; South St Paul, MN 55075 &#9; Email: dosakouete@gmail.com &#9; Phone: 410-302-9892</p>
+        <div id="header">
+          <p>IT professional with experience in back-end software development and customer service. Interested in service oriented desktop, mobile 
+and web applications development, as well as learning more about full Stack development. Independent self-motivated learner, constantly 
+seeking ways to improve while working with new innovative technologies. Want to grow professionally while contributing to the 
+development of high quality software solutions. Fluent in English and French, also a talented artist that loves to code.
+          </p>
+        </div>
+        <h4>SKILLS &#38; ABILITIES</h4>
+        <div>
+          <ul class="main-list" >
+            <li>Working knowledge of Java, JavaScript, C++, C#, Node.JS, as well as familiarity with Python and SQL</li>
+            <li>Comfortable working on Windows and Linux platforms</li>
+            <li>Self-starter, detail oriented, strong work ethic, problem solver</li>
+            <li>Fluent in French and English (both verbal and written), and two West African native dialects</li>
+            <li>Talented in traditional drawing and sketching, especially human figures and portraits</li>
+          </ul>
+        </div>
+        <h4>EDUCATION</h4>
+          <div class="title">COMMUNITY COLLEGE OF BALTIMORE COUNTY</div>
+        <ul class="main-list">
+          <li>Associate of Science Degree in Computer Science</li>
+        </ul>
+        <div class="title">SOLOLEARN E-LEARNING</div>
+        <ul class="main-list">
+          <li>Certificate for Java Course Completed, Certificate for C# Course Completed, Certificate for JavaScript Course Completed,
+                    	 Certificate for C++ Course Completed, Certificate for SQL Course Completed.
+		      </li>
+        </ul>
+        <h4>EXPERIENCE</h4>
+        <div class="title">SOFTWARE DEVELOPER INTERN, HEALYTICS LLC</div>
+        <h5>06/04/2017 TO 10/13/2017</h5>
+        <ul class="main-list">
+          <li>Key Accomplishment: Back-end Web application development with NodeJS/JavaScript implementing Express.JS, Rest APIs, and
+           the Apache NIFI for data processing and ingestion into No SQL database, the goal of this project was to consume a client 
+           services API and store JSON formatted data, which then was managed with PostgreSQL database for various use.</li>
+          <li>Managed my tasks and code repository independently using the Agile framework implemented with Atlassian stack 
+              tools and GitFlow, while working synchronously with my team members.</li>
+          <li>Worked with the testing framework such as Mocha and Chai including the implementation of Proxyquire and Sequelize-Mock for dependency injection.</li>
+          <li>Performed JUnit testing in Java testing independent APIs such as JoltTransform using JSON to JSON Transformation libraries.</li>
+        </ul>
+        <div class="title">TECHNICIAN, IMPACT OFFICE LLC</div>
+        <h5>07/01/2015 TO 06/30/2017</h5>
+        <ul class="main-list">
+          <li>Responsible for pre-installation, network configuration, reparation and testing of production machines, high capacity copiers, and 
+          	printers from a variety of manufacturers including Canon, HP and Samsung.</li>
+          <li>Purchased and managed parts inventory</li>
+          <li>Collaborated with the solution architect to configure the necessary hardware and software to achieve a seamless workflow</li>
+    	  </ul>
+        <div class="title">SALES REPRESENTATIVE, ROBNET INDUSTRIAL FASTENERS INC</div>
+        <h5>10-15-2006 TO 02/2015</h5>
+        <ul class="main-list">
+          <li>Promoted to the position of Inside Sales Representative, provided customer service, and successfully managed accounts.</li>
+          <li>Supervised the quality of the products supplied to customers and achieved a 98% customer satisfaction rating.</li>
+          <li>Submitted requisitions, issued purchase orders, and followed up with the receiving department. Aided the office manager with filing and scanning documents.</li>
+    	  </ul>
+      </div>
+    </div>
+    
+    <!-- The default page onload -->    
+    <div id="home" class="content-main">
+      <p>601 8th Ave S &#9; South St Paul, MN 55075 &#9; Email: dosakouete@gmail.com &#9; Phone: 410-302-9892</p>
+      <div class="header">
+        <p>IT professional with experience in back-end software development and customer service. Interested in service oriented desktop, mobile 
+and web applications development, as well as learning more about full Stack development. Independent self-motivated learner, constantly 
+seeking ways to improve while working with new innovative technologies. Want to grow professionally while contributing to the 
+development of high quality software solutions. Fluent in English and French, also a talented artist that loves to code.
+        </p>
+      </div>
+      <h4>SKILLS &#38; ABILITIES</h4>
+    	<div>
+        <ul class="main-list" >
+          <li>Working knowledge of Java, JavaScript, C++, C#, Node.JS, as well as familiarity with Python and SQL</li>
+          <li>Comfortable working on Windows and Linux platforms</li>
+          <li>Self-starter, detail oriented, strong work ethic, problem solver</li>
+          <li>Fluent in French and English (both verbal and written), and two West African native dialects</li>
+          <li>Talented in traditional drawing and sketching, especially human figures and portraits</li>
+        </ul>
+      </div>
+      <h4>EDUCATION</h4>
+      <div class="title">COMMUNITY COLLEGE OF BALTIMORE COUNTY</div>
+    	<ul class="main-list">
+        <li>Associate of Science Degree in Computer Science</li>
+      </ul>
+      <div class="title">SOLOLEARN E-LEARNING</div>
+      <ul class="main-list">
+        <li>Certificate for Java Course Completed, Certificate for C# Course Completed, Certificate for JavaScript Course Completed,
+        	 Certificate for C++ Course Completed, Certificate for SQL Course Completed.</li>
+      </ul>
+      <h4>EXPERIENCE</h4>
+      <div class="title">SOFTWARE DEVELOPER INTERN, HEALYTICS LLC</div>
+      <h5>06/04/2017 TO 10/13/2017</h5>
+      <ul class="main-list">
+        <li>Key Accomplishment: Back-end Web application development with NodeJS/JavaScript implementing Express.JS, Rest APIs, and
+         the Apache NIFI for data processing and ingestion into No SQL database, the goal of this project was to consume a client 
+         services API and store JSON formatted data, which then was managed with PostgreSQL database for various use.</li>
+        <li>Managed my tasks and code repository independently using the Agile framework implemented with Atlassian stack 
+            tools and GitFlow, while working synchronously with my team members.</li>
+        <li>Worked with the testing framework such as Mocha and Chai including the implementation of Proxyquire and Sequelize-Mock for dependency injection.</li>
+        <li>Performed JUnit testing in Java testing independent APIs such as JoltTransform using JSON to JSON Transformation libraries.</li>
+  	  </ul>
+      <div class="title">TECHNICIAN, IMPACT OFFICE LLC</div>
+      <h5>07/01/2015 TO 06/30/2017</h5>
+      <ul class="main-list">
+        <li>Responsible for pre-installation, network configuration, reparation and testing of production machines, high capacity copiers, and 
+        	printers from a variety of manufacturers including Canon, HP and Samsung.</li>
+        <li>Purchased and managed parts inventory</li>
+        <li>Collaborated with the solution architect to configure the necessary hardware and software to achieve a seamless workflow</li>
+	    </ul>
+      <div class="title">SALES REPRESENTATIVE, ROBNET INDUSTRIAL FASTENERS INC</div>
+      <h5>10-15-2006 TO 02/2015</h5>
+      <ul class="main-list">
+        <li>Promoted to the position of Inside Sales Representative, provided customer service, and successfully managed accounts.</li>
+        <li>Supervised the quality of the products supplied to customers and achieved a 98% customer satisfaction rating.</li>
+        <li>Submitted requisitions, issued purchase orders, and followed up with the receiving department. Aided the office manager with filing and scanning documents.</li>
+	    </ul>
+    </div>
+
+    <!-- The footer content-->
+    <div id="container footer-content" class= "copyright">
+      <p>&copy; Copyright 2018 - Kekeli Dos Akouete</p>
+ 		</div>
+  </div>
 </body>
+
 </html>
